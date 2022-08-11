@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --primary-color:#047aed;     
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    color:#ccc;
+    line-height: 1.6;
+   
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p{
+    padding: 10px 0;
+}
+img{
+    width: 100%;
+}
+
+
+.form-control {
+	margin: 30px 0;
+}
+
+.section_main{
+    background-color:rgb(209, 206, 206);
+    padding: 20px;
+    margin: 10px 0;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.categories {
+	margin: 0 auto;
+	width: 95%;
+	background-color: #fff;
+	height: auto;
+	padding: 10px 10px 39px;
+}
+ 
+ 
+
+.flex li{
+    padding: 7px 10px;
+    margin-right:10px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    display:inline-block;
+
+}
+.flex li:hover{
+   background-color: #1367bb;
+
+}
+.flex li a{
+    color:#fff;
+    font-size:12px;
+    font-weight:400;
+}
+.flex li a i{
+    color:#fff;
+    font-size:14px;
+    
+}
+.flex li a span{
+    color:#fff;
+    padding-left: .7px;
+    
+}
+.information{
+   
+    border: 1px solid rgb(228, 225, 225);
+    width: 95%;
+    margin: 20px auto;
+    overflow:visible;
+
+}
+.information h3{
+    padding: 15px;
+    border-bottom: 1px solid #d8d8d8 ;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 40px;
+}
+.section{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 20px;
+}
+.section_1,.section_2, .section_3 h4{
+    font-size:14px; font-weight:bold; color:#000; margin:0; padding:0;
+}
+.section_2, h4{
+    font-size:14px; font-weight:bold; color:#000; margin:0; padding:0;
+}
+ .section_3 h4{
+    font-size:14px; font-weight:bold; color:#000; margin:0; padding:0;
+}
+.section_1 h4 span{
+    font-size:14px; font-weight:bold; color:red;
+}
+.section_2, h4 span{
+    font-size:14px; font-weight:bold; color:red;
+}
+.section_3, h4 span{
+    font-size:14px; font-weight:bold; color:red;
+}
+.section_1 select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.section_1 select:hover{
+  outline: none;
+}
+.section_2 select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.section_2 select:hover{
+    outline: none;
+  }
+.section_3 select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.section_3 select:hover{
+    outline: none;
+  }
+.section_part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 95%;
+    margin:0 auto;
+    gap:5px;
+   
+}
+/* .form-control_1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+} */
+.section_part .form-control_1 input {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+
+.section_part .form-control_1 input:hover{
+    outline: none;
+  }
+  .section_part .form-control_2 input {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+.section_part .form-control_2 input:hover{
+    outline: none;
+  }
+
+  .section_part_1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    margin:15px auto;
+    gap:5px;
+  }
+  .section_part_1 .form-control_1 input {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+.section_part_1 .form-control_1 input:hover{
+    outline: none;
+  }
+  .section_part_1 .form-control_2 input{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+.section_part_1 .form-control_2 input:hover{
+    outline: none;
+  }
+  .section_part_1 .form-control_3 input {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 4px;
+}
+.section_part_1 .form-control_3 input:hover{
+    outline: none;
+  }
+  .section_part_1 .form-control_4 input{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 4px;
+}
+.section_part_1 .form-control_4 input:hover{
+    outline: none;
+  }
+
+  .section_part_2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95%;
+    margin:15px auto;
+    gap:5px;
+  }
+  .section_part_2 .form-control_1 input{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+.section_part_1 .form-control_1 input:hover{
+    outline: none;
+  }
+  .section_part_2 .form-control_2 input{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 7px;
+}
+.section_part_2 .form-control_2 input:hover{
+    outline: none;
+  }
+  .section_part_2 .form-control_3 input{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 4px;
+}
+.section_part_2 .form-control_3 input:hover{
+    outline: none;
+  }
+
+  .form-controls{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .form-controls select{
+    border: 1px solid #d8d8d8;
+  }
+  .section_part_3{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    margin: 0 auto;
+  }
+  .form-control_1{
+    color:#000;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .form-control_2{
+    color:#000;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .form-control_3 select{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #d8d8d8;
+  }
+  .section_part_4{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap:10px;
+    width: 98.5%;
+  }
+  .section_part_4 input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #d8d8d8;
+  }
+  .section_part_4 input:hover{
+    outline: none;
+  }
+  .section_part_4 select{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+  }
+  .section_part_4 select:hover{
+    outline: none;
+  }
+  .section_part_5{
+    width: 100%;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:5px;
+    
+  }
+
+.form-control_1 input{
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    padding: 7px;
+}
+.form-control_2 input{
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    padding: 7px;
+}
+.form-control_3 input{
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    width: 98%;
+    padding: 3px;
+}
+.form-control_4 input{
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    width: 98%;
+    padding: 3px;
+}
+.form-control_5 input{
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    width: 98%;
+    padding: 3px;
+}
+
+.section_part_6 {
+	width: 95%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 10px;
+}
+.form-control_1 textarea{
+  width: 100%;
+}
+.form-control_2 textarea{
+  width: 100%;
+}
+.submitBtn{
+  float: right;
+  margin: 10px;
+}
+.submitBtn:hover{
+ transform: scaleX(1.1);
+}
+input[type="submit"] {
+  color: #fff;
+  background: rgb(41, 170, 48);
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.add_category_form{
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+margin-bottom: 20px;
+}
+.add_category_form ul{
+  display: flex;
+  justify-content: right;
+  
+}
+.add_category_form ul li:first-child {
+  margin-right: 10px;
+  background: rgb(41, 40, 40);
+  padding: 10px;
+  color:#fff;
+  border-radius: 5px;
+}
+.add_category_form ul li:first-child:hover {
+  background-color: #1367bb;
+}
+.add_category_form ul li a {
+  
+  color:#fff;
+}
+.add_category_form ul li:first-child(2) {
+  margin-right: 10px;
+  background: rgb(163, 5, 5);
+ 
+}
+input[type="button"] {
+  padding: 15px;
+  font-size: 12px;
+  background: rgb(241 9 9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+input[type="button"]:hover {
+  background-color: rgb(155, 16, 16);
+}
+.add_category{
+  width: 50%;
+  margin:0 auto;
+  padding: 20px;
+  
+}
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  outline:none;
+}
+input.success {
+  background: rgb(1, 158, 1);
+}
+input.success:hover {
+  background: rgb(4, 61, 4);
+}
+hr{
+  width: 70%;
+  margin:0 auto;
+}
+input.reset {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgb(3, 114, 218);
+}
+.table{
+  width: 80%;
+  margin:20px auto;
+
+}
+.form-control {
+  margin: 7px 0;
+}
+label{
+  color: #000;
+}
+@media screen and ( max-width: 400px) {
+  .flex li {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  ul {
+    /* list-style-type: none; */
+    display: grid;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .section {
+    display: list-item;
+  }
+  .section_part {
+    display: list-item;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .section_part_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: 15px auto;
+    gap: 5px;
+  }
+  .section_part_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: 15px auto;
+  }
+  .section_part_3 {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+  }
+  .section_part_4 {
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .section_part_5 {
+    width: 100%;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+  }
+  .section_1 select {
+    height: 28px;
+    font-size: 12px;
+  }
+  .section_2 select {
+    height: 28px;
+    font-size: 12px;
+  }
+  .section_3 select {
+    height: 28px;
+    font-size: 12px;
+  }
+   h4 {
+    font-size: 12px;
+  }
+  .information h3 {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #aca;
+  }
+}
+@media screen and ( max-width: 800px) {
+  .flex li {
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .section_part_1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 95%;
+    margin: 15px auto;
+    gap: 5px;
+  }
+  .section_part_4 {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap: 10px;
+    width: 95.5%;
+  }
+  .section_part_2 {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    width: 95%;
+  }
+  .section_part_5 {
+    /* width: 50%; */
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  #product_image {
+    width: 98%;
+  }
+  .form-control_2 input {
+    width: 98%;
+  }
+
+ h4 {
+    font-size: 10px;
+  }
+  .section_3 h4 {
+    font-size: 10px;
+  }
+}
